@@ -7,5 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class PhoneBookItem extends Model
 {
-    use HasFactory;
+    protected $fillable = [
+        'first_name',
+        'last_name',
+        'phone_number',
+        'country_code',
+        'timezone', 
+        'insertedOn',
+        'updatedOn'
+    ];
 }

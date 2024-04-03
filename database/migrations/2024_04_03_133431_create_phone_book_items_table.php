@@ -10,7 +10,7 @@ return new class extends Migration
      * Run the migrations.
      *
      * @return void
-     */
+     */  
     public function up()
     {
         Schema::create('phone_book_items', function (Blueprint $table) {
